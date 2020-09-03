@@ -8,31 +8,6 @@ void main() => runApp(MaterialApp(
       home: Home(),
     ));
 
-/*class FirstPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Text("Weather Applications"),
-          TextField(
-            decoration: InputDecoration(
-                border: InputBorder.none, hintText: 'Enter Country:'),
-          ),
-          RaisedButton(
-            child: Text("Enter Country"),
-            onPressed: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Home()));
-            },
-          ),
-        ],
-      ),
-    );
-  }
-}*/
-
 class Home extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
