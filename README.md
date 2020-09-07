@@ -1,6 +1,6 @@
 # flutter_exercise
 
-A new Flutter project.
+A new Flutter project. You can use it by typing api key.
 
 ## Getting Started
 
